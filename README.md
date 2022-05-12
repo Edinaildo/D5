@@ -1,2 +1,1 @@
-# D5
-Desafio do QR CODE
+# [Acesse a página](https://edinaildo.github.io/D5/)
