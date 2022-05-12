@@ -11,9 +11,9 @@ body {
 }
 .qrcode {
   display: inline-block;
-  height: 600px;
+  height: 700px;
+  width: 440px;
   border-radius: 20px;
-  margin: 30px;
   background-color: #fff;
 }
 .image {
