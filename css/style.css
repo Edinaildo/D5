@@ -18,5 +18,14 @@ body {
 .image {
   width: 200px;
   height: 200px;
-  padding: 20px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.fontepequena {
+  font-family: Outfit;
+  font-weight: 400;
+}
+.fontegrande {
+  font-family: Outfit;
+  font-weight: 700;
 }
