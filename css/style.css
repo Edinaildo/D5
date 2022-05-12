@@ -26,6 +26,7 @@ body {
 .fontepequena {
   font-family: Outfit;
   font-weight: 400;
+  color: gray;
 }
 .fontegrande {
   font-family: Outfit;
@@ -36,4 +37,30 @@ body {
   margin: 40px;
   margin-top: 5px;
   text-align: left;
+}
+
+@media (min-width: 370px) {
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  body {
+    position: absolute;
+  }
+  .qrcode {
+    height: 600px;
+    width: 320px;
+  }
+
+  .image {
+    width: 280px;
+    height: 280px;
+  }
+  .fontegrande {
+    font-size: 25px;
+  }
+  .fontepequena {
+    font-size: 20px;
+  }
 }
