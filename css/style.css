@@ -10,16 +10,18 @@ body {
   background-color: rgb(214, 226, 240);
 }
 .qrcode {
-  display: flex;
-  height: 300px;
-  border-radius: 15px;
+  display: inline-block;
+  height: 600px;
+  border-radius: 20px;
+  margin: 30px;
   background-color: #fff;
 }
 .image {
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
   padding: 10px;
-  border-radius: 20px;
+  border-radius: 30px;
+  padding: 20px;
 }
 .fontepequena {
   font-family: Outfit;
@@ -28,4 +30,10 @@ body {
 .fontegrande {
   font-family: Outfit;
   font-weight: 700;
+  font-size: 30px;
+}
+.texto {
+  margin: 40px;
+  margin-top: 5px;
+  text-align: left;
 }
